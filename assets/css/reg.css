@@ -1,0 +1,30 @@
+.reg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 12.5%;
+}
+
+#username, #password, #confirm, #email
+{
+    padding: 7.5px, 20px;
+    border: 1px solid;
+}
+
+.lab
+{
+    font-family: 'Gilroy';
+    font-size: 16px;
+}
+
+.msg
+{
+    border:2px outset;
+    border-color: red;
+    border-radius: 5px;
+    block-size: 20px;
+    font-family: 'Gilroy';
+}
